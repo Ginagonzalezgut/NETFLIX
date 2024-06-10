@@ -1,0 +1,45 @@
+:root {
+  --netflix-red: #ff000d;
+}
+.logo-netflix {
+  height: 75px;
+}
+body {
+  background-color: black;
+  font-family: NetflixSansBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  color: white;
+}
+.menu {
+  gap: 40px;
+}
+.main-nav {
+  justify-content: space-between;
+  max-width: 1120px;
+  margin: auto;
+  padding-top: 20px;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.menu a:hover {
+  color: var(--netflix-red);
+}
+.menu,
+.main-nav {
+  display: flex;
+  flex-direction: row;
+}
+.active {
+  border-bottom: 1px solid white;
+}
+.active:hover {
+  border-color: var(--netflix-red);
+}
+header {
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
