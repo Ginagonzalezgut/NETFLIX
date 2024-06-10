@@ -13,10 +13,14 @@ body {
 .menu {
   gap: 40px;
 }
-.main-nav {
-  justify-content: space-between;
+
+.container {
   max-width: 1120px;
   margin: auto;
+}
+
+.main-nav {
+  justify-content: space-between;
   padding-top: 20px;
 }
 .menu a {
@@ -42,4 +46,8 @@ header {
   background-color: black;
   position: sticky;
   top: 0;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
 }
